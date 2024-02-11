@@ -13,7 +13,7 @@
 CC=gcc
 CFLAGS=-I/includes
 DEPS = common.h
-OBJ = main.o
+OBJ = main.o circle.o
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
